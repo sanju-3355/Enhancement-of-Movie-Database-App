@@ -51,7 +51,7 @@ const App = () => {
         onChangeSearchInput,
       }}
     >
-      <div className="App d-flex flex-column">
+      <div className="App">
         <Switch>
           <Route exact path="/" component={Popular} />
           <Route exact path="/top-rated" component={TopRated} />

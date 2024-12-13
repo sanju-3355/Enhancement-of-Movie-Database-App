@@ -24,7 +24,7 @@ const NavBar = props => {
         }
 
         return (
-          <div className="d-flex align-items-center">
+          <div className="container">
             <input
               type="text"
               className="me-2 search-input"
@@ -32,11 +32,7 @@ const NavBar = props => {
               value={searchInput}
               placeholder="Search"
             />
-            <button
-              className="btn btn-outline-info"
-              type="button"
-              onClick={onSearchHandler}
-            >
+            <button className="button" type="button" onClick={onSearchHandler}>
               Search
             </button>
           </div>
@@ -46,11 +42,11 @@ const NavBar = props => {
   )
 
   return (
-    <nav className="navbar-container d-flex align-items-center p-3">
+    <nav className="navbar-container">
       <div className="logo-container">
         <h1 className="page-logo">movieDB</h1>
       </div>
-      <div className="ms-auto d-flex align-items-center">
+      <div className="ms-auto d-flex align-items-center search-container">
         <ul className="order-1 d-flex align-items-center p-0 mb-0 ms-3 nav-items-list">
           <li className="nav-item">
             <Link className="nav-link" to="/">
