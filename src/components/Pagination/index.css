@@ -1,0 +1,25 @@
+.container {
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.control-btn {
+  border: none;
+  padding: 12px 24px;
+  font-family: 'Roboto';
+  background-color: #032541;
+  cursor: pointer;
+  color: white;
+  border-radius: 3px;
+}
+
+.page-no {
+  margin-bottom: 15;
+  margin-left: 15px;
+  margin-right: 15px;
+  border: 1px solid black;
+  padding: 8px 16px;
+  background-color: aliceblue;
+  border-radius: 3px;
+}

@@ -47,7 +47,7 @@ class Pagination extends React.Component {
     // const {totalPages} = this.props
 
     return (
-      <div className="mb-3 d-flex justify-content-center align-items-center">
+      <div className="container">
         <button type="button" className="control-btn" onClick={this.onPrevPage}>
           Prev
         </button>

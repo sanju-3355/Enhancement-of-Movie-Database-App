@@ -1,14 +1,20 @@
 .movie-card-container {
   display: flex;
   flex-direction: column;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
 }
 .movie-card-image {
-  width: 300px;
+  width: 250px;
   margin-right: 25px;
 }
 .movie-title {
-  font-size: 28px;
+  font-size: 20px;
+  margin-right: 10px;
+  padding-right: 0;
+  width: 280px;
+}
+.movie-rating {
+  font-size: 16px;
 }
 
 .poster-size {

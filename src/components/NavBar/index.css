@@ -1,5 +1,6 @@
 .container {
   display: flex;
+  justify-content: space-between;
   align-items: center;
   margin-left: 95px;
   margin-right: 8px;
@@ -14,6 +15,8 @@
 .search-container {
   display: flex;
   align-items: center;
+  justify-content: space-between;
+  margin-top: 8px;
 }
 .logo-container {
   background-image: linear-gradient(to right, #8fcea1, #03b3e3);
@@ -36,6 +39,7 @@
   list-style: none;
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 .nav-item {
@@ -62,6 +66,7 @@
   color: #acacac;
   min-width: 250px;
   border-radius: 3px;
+  margin-left: 45px;
 }
 .button {
   background-color: indianred;
